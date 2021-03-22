@@ -22,6 +22,7 @@
 python で作成したc_compile_ring.soをimportすれば使用できる。  
 exoring_testフォルダのfit_test.pyに使用例を載せた。  
 - python fit_test.py  
+
 と打てば動く。このコードでは、実際にAizawa+2017で解析したデータを読み込み(Q8_l_KIC10403228_test_detrend.dat)  
 それと指定したパラメータ (para_result_ring.datの2列目)でのモデルフラックスを並べてplotしてくれる。  
 
