@@ -19,7 +19,7 @@
 - gcc -undefined dynamic_lookup -bundle -lgsl -lgslcblas c_compile_ring.o -o c_compile_ring.so  
 
 ## 3. 走らせる
-python で作成したc_compile_ring.soをimportすれば使用できる。  
+2で作成したc_compile_ring.soをimportすれば使用できる。  
 exoring_testフォルダのfit_test.pyに使用例を載せた。  
 - python fit_test.py  
 
