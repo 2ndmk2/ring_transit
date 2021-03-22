@@ -9,7 +9,7 @@
   Homebrewなどを使っているのならば、brew installなどでgslはインストールできる。  
   gslがインストールできたかどうかは、gcc “-lgsl"などのリンカが通るかで確認しておく。  
 
-## 2. wrapperでringのtransit light curveをpythonで使えるようにする
+## 2. ringのtransit light curveをpythonで使えるようにする
 以下の二つのコマンドを(python_extフォルダで)打つと、shared library (c_compile_ring.so)が作成できる。  
 ただし、  
 /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/Headers  
