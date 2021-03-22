@@ -13,8 +13,8 @@
 ただし、/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/Headers
 はPython.hがある場所のpathに変更しておくようにする
 
-gcc -fpic -I/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/Headers -o c_compile_ring.o -c c_compile_ring.c
-gcc -undefined dynamic_lookup -bundle -lgsl -lgslcblas c_compile_ring.o -o c_compile_ring.so
+- gcc -fpic -I/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/Headers -o c_compile_ring.o -c c_compile_ring.c
+- gcc -undefined dynamic_lookup -bundle -lgsl -lgslcblas c_compile_ring.o -o c_compile_ring.so
 
 3. 走らせる
 python で作成したc_compile_ring.soをimportすれば使用できる。
