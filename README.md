@@ -20,7 +20,7 @@
 
 ## 3. 走らせる
 2で作成したc_compile_ring.soをimportすれば使用できる。  
-exoring_testフォルダのfit_test.pyに使用例を載せた。  
+exoring_testフォルダに使用例(fit_test.py)を載せた。  
 - python fit_test.py  
 
 と打てば動く。このコードでは、実際にAizawa+2017で解析したデータ(Q8_l_KIC10403228_test_detrend.dat)を読み込み
