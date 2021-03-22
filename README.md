@@ -30,5 +30,5 @@ exoring_testフォルダのfit_test.pyに使用例を載せた。
 c_extフォルダでは実際にcを用いたフィッティングなどを行ってくれる。  
 gslをインストールした後に、  
 - gcc main.c mpfit.c -lgsl -lgslcblas  
-- 
+
 として作成した実行ファイルを実行するとフィティングまでしてくれる。  
