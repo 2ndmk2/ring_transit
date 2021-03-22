@@ -7,7 +7,7 @@
 -  gcc, pythonなどを使えるようにしておく。  
 - GNU Scientific Library (GSL)をcで使えるようにしておく。  
   Homebrewなどを使っているのならば、brew installなどでgslはインストールできる。  
-  gslがインストールできたかどうかは、gcc “-lgsl"などのリンカが通るかで確認しておく。  
+  gslがインストールできたかどうかは、“-lgsl"などのリンカが通るかで確認しておく。  
 
 ## 2. ringのtransit light curveをpythonで使えるようにする
 以下の二つのコマンドを(python_extフォルダで)打つと、shared library (c_compile_ring.so)が作成できる。  
